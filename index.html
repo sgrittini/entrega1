@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+
+    </header>
+    <main>
+        <div class="divCheck">
+            <p>Elegir si el resultado es por Alerta o Consola</p>
+            <label for="alert"> Por Alert <input id="alert" name="alert" type="checkbox" checked="true"></label>
+            <label for="console"> Por Consola <input id="console" name="console" type="checkbox"></label>
+        </div>
+        <div class="contenedorBotones">
+            <h2>Ingrese una palabra, contamos las letras y deletreamos (usamos for)</h2>
+            <input class="ejemplo1" id="ejemplo1" type="text">
+            <button class="boton1" onclick="ejemplo1()">Ejecutar</button>
+        </div>
+        <div class="contenedorBotones">
+            <h2>Contador de palabras (usamos while)</h2>
+            <button class="boton1" onclick="ejemplo2()">Ejecutar</button>
+        </div>
+        <div class="contenedorBotones">
+            <h2>Contador de palabras (usamos DO while)</h2>
+            <button class="boton1" onclick="ejemplo3()">Ejecutar</button>
+        </div>
+        <div class="contenedorBotones">
+            <h2>Elija un numero del 1 al 10 (usamos switch)</h2>
+            <input class="ejemplo4" id="ejemplo4" type="number" min="0">
+            <button class="boton1" onclick="ejemplo4()">Ejecutar</button>
+        </div>
+    </main>
+    <footer>
+        <div class="contenedorFooter">
+            <div>CoderHouse - Entrega Nro 1</div>
+            <div>Sergio Leonardo Grittini</div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
